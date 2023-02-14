@@ -12,6 +12,7 @@ const sqarlex6 = new Discord.Client();
 const sqarlex7 = new Discord.Client(); 
 
 // Aktif edilecek token sayısına göre arttırabilirsiniz. Eğer yukarıyı arttırırsanız aynı şekilde aşşağıyıda arttırmanız gerekir.
+// Tokenleri tırnakların -> "" arasına yaz.
 
 sqarlex1.login("sqarlex token 1");
 sqarlex2.login("sqarlex token 2");
@@ -23,7 +24,7 @@ sqarlex7.login("sqarlex token 7");
 
 
 /* 
-setActivity kısmı size kalmış silebilirsiniz veya istediğiniz gibi değişebilirsiniz baştaki kısma ne yaptığının ismini (ör: Spotify) type kısmına aşağıda bıraktığım dördünden biri
+setActivity kısmı size kalmış silebilirsiniz veya istediğiniz gibi değişebilirsiniz baştaki kısma ne yaptığının ismini (ör: Spotify) type kısmına aşağıda bıraktığım dördünden biri;
 
 LISTENING = DİNLİYOR
 PLAYING = OYNUYOR
