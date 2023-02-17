@@ -1,7 +1,6 @@
 const { Client, RichEmbed } = require("discord.js");
 
 const Discord = require("discord.js");
-const client = new Discord.Client();
 
 const sqarlex1 = new Discord.Client();
 const sqarlex2 = new Discord.Client();
